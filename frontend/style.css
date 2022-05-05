@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+
+body {
+    background-color: rgb(182, 190, 179);
+    padding: 20px;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Oleo Script', cursive;
+}
+
+p,
+li,
+h4 {
+    font-size: 20px;
+}
+
+#navbar {
+    text-align: center;
+}
+
+/* This will affect all a tags, but only within the navbar element */
+#navbar a {
+    color: darkslategrey;
+    font-size: 20px;
+}
+
+button {
+    border: 1px solid darkslategrey;
+    border-radius: 0.5em;
+    background-color: rgb(139, 189, 189);
+    margin-left: 10%;
+    padding: 8px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgb(78, 134, 134);
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+/* This means that only the a tags that have navbar as their parent will have color blue */
+/* #navbar>a {
+    color: blue;
+} */
+
+/* Pseudo classes affect the state of the element */
+/* a:hover {
+    color: darkslategrey;
+} */
+
+/* a:visited {
+    color: purple;
+} */
+
+a:active {
+    color: red;
+}
+
+/* #navbar a:hover {
+    color: green;
+} */
