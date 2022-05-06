@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Oleo Script', cursive;
 }
 
@@ -29,6 +29,8 @@ h4 {
 
 #navbar {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* This will affect all a tags, but only within the navbar element */
@@ -38,10 +40,9 @@ h4 {
 }
 
 button {
-    border: 1px solid darkslategrey;
+    border: 2px solid darkslategrey;
     border-radius: 0.5em;
     background-color: rgb(139, 189, 189);
-    margin-left: 10%;
     padding: 8px;
     width: 100px;
 }
@@ -50,8 +51,18 @@ button:hover {
     background-color: rgb(78, 134, 134);
 }
 
+.centre {
+    text-align: center;
+}
+
 img {
     margin-bottom: 10px;
+}
+
+.family {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 /* This means that only the a tags that have navbar as their parent will have color blue */
@@ -75,3 +86,6 @@ a:active {
 /* #navbar a:hover {
     color: green;
 } */
+a {
+    font-size: 20px;
+}
