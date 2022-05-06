@@ -57,12 +57,20 @@ button:hover {
 
 img {
     margin-bottom: 10px;
+    width: 40%;
 }
 
 .family {
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.kids {
+    width: 17%;
+    border: solid black 2px;
+    padding: 10px;
 }
 
 /* This means that only the a tags that have navbar as their parent will have color blue */
