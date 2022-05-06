@@ -23,7 +23,8 @@ h2 {
 
 p,
 li,
-h4 {
+h4,
+a {
     font-size: 20px;
 }
 
@@ -45,10 +46,16 @@ button {
     background-color: rgb(139, 189, 189);
     padding: 8px;
     width: 100px;
+    box-shadow: 3px 3px;
 }
 
 button:hover {
     background-color: rgb(78, 134, 134);
+}
+
+button:active {
+    background-color: rgb(139, 189, 189);
+    box-shadow: 0px 0px;
 }
 
 .centre {
@@ -83,17 +90,18 @@ img {
     color: darkslategrey;
 } */
 
-/* a:visited {
-    color: purple;
-} */
+a:visited {
+    color: darkslategrey;
+}
+
+a:hover {
+    color: green;
+}
 
 a:active {
     color: red;
 }
 
-/* #navbar a:hover {
-    color: green;
-} */
-a {
-    font-size: 20px;
+footer {
+    text-align: center;
 }
